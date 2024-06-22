@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&family=Work+Sans:wght@300&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+img{
+  max-height: 100%;
+}
+input, textarea ,select{
+    @apply border-2 border-yellow-700 rounded-lg p-1 w-full mb-2
+}
+.btn{
+  @apply p-3  bg-green-600 text-white rounded-lg
+}
+table.basic tr td {
+  @apply border border-gray-300 p-2
+}
+table.basic thead tr td {
+  @apply bg-yellow-600
+}
+table.basic  {
+  @apply w-full
+ 
+}
+
+
